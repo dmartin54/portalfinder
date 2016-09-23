@@ -1,0 +1,75 @@
+body {
+    background-color: ;
+}
+
+h1 {
+   color: grey;
+    text-align: center;
+    font: italic bold 30px/30px Verdana, serif;
+}
+
+p {
+    color: grey;
+    text-align: center;
+    font: italic bold 30px/30px Verdana, serif;
+}
+img {
+    border-radius: 1px 1px 0 0;
+     display: block;
+    margin: auto;
+    width: 60%;
+}
+form {
+  	width: 300px;
+  	vertical-align: middle;
+  	white-space: nowrap;
+  	position: relative;
+
+}
+.circular--portrait {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 100px auto;
+}
+
+/* search box*/
+.searchbox{
+	position: relative;
+	margin: 30px auto;
+  	width: 340px;
+  	height: 50px	 
+}
+
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+   
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+button{
+	 background-image: url('button_perspective.png');
+	 background-size: 95%;
+    	 width: 45px;
+    	 height: 50px;
+    	  border-radius: 4px;
+    	  padding: 12px 20px 12px 40px;
+
+    }
+ /* Add rounded corners to the top left and the top right corner of the image */
+img {
+    border-radius: 1px 1px 0 0;
+     display: block;
+    margin: auto;
+    width: 60%;
+}
